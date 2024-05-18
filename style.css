@@ -107,7 +107,17 @@ body{
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
+.todoList li .edit {
+  right: 50px; 
+  background: #ffe607;
+}
+.todoList li .delete {
+  right: 10px;
+  background: #e70d0d;
+}
+.todoList li.dragging {
+  opacity: 0.5;
+}
 .wrapper .footer{
   display: flex;
   width: 100%;
